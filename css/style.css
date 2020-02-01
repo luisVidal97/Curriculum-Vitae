@@ -1,0 +1,314 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+h1, h2, h3, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#encabezado {
+    display: block;
+    width: auto;
+    height: 80px;
+    background-color: dimgray;
+}
+
+#encabezado .divEncabezadoIcon {
+    float: left;
+    height: 80px;
+    margin-left: 5%;
+}
+
+#encabezado .divEncabezadoText {
+    float: left;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+#encabezado .letterHeader {
+    color: white; 
+    text-align: center;
+    font-size: 35px;
+}
+
+.material-icons.md-light { 
+    color: rgba(255, 255, 255, 1); 
+}
+  
+.material-icons.md-60 { 
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+/* -------------------------------------------- */
+/* -------Name and profession panel------------ */
+/* -------------------------------------------- */
+
+#idSectionName {
+    height: 300px   ;
+    display: flex;
+    flex-direction: row;
+}
+
+#idSectionName #idImageMine {
+    width: 25%;
+}
+
+#idSectionName #idImageMine #image {
+    height: 280px;
+    width: 280px;
+    margin-left: 10%;
+    clip-path: polygon(25% 0, 75% 0, 100% 49%, 75% 100%, 25% 100%, 0 50%);
+}
+
+#idSectionName #idNameProfession {
+    width: 75%;
+    margin-right: 8%;
+}
+
+#iddivcontentnamelast {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#idSectionName #idNameProfession .name {
+    width: 50%;
+}
+
+#idSectionName #idNameProfession .name #idTextName {
+    color: lightskyblue;
+    font-size: 70px;
+    margin-left: 10%;
+    margin-top: 55px;
+}
+
+#idSectionName #idNameProfession .name #idTextLastName {
+    color: dimgray;
+    font-size: 70px;
+    margin-top: 55px;
+}
+
+#idSectionName #idNameProfession #lineSepartor {
+    margin-left: 4%;
+    width: 93%;
+}
+
+#idSectionName #idNameProfession #idTextProfession {
+    color:dimgrey;
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+
+/* -------------------------------------------- */
+/* ------------Infrmation Panel---------------- */
+/* -------------------------------------------- */
+
+#idSectionData {
+    height: 1350px;
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#idSectionData .pannelInformation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1%;
+}
+
+.class-titles {
+    color:deepskyblue;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.classTitleIcon {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+#idWorkExperience #classes-Enterprises {
+    float: left;
+    margin-top: 5%;
+}
+
+#idWorkExperience #classes-Enterprises .class-enterprise {
+    height: 70%;
+    width: 95%;
+    margin-bottom: 150px;
+}
+
+#idWorkExperience #idSeparatorVertical {
+    width: 1px;
+    height: 650px;
+    margin-top: 5%;
+    float: left;
+}
+
+.class-TextEnterprise {
+    color:deepskyblue;
+    text-align: center;
+}
+
+#classes-Enterprises-description {
+    margin-top: 5%;
+    margin-left: 100px;
+}
+
+.class-textDescriptorYear {
+    color: dimgray;
+    text-align: center;
+}
+
+.class-textDescriptor {
+    color: dimgray;
+    margin-left: 10px;
+}
+
+.class-enterprise-description {
+    margin-left: 100px;
+    height: 238px;
+}
+.class-paragraph {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: dimgray;
+}
+
+#idAddInformation {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#classes-Educations{
+    margin-top: 60px;
+}
+
+.class-Education {
+    margin-bottom: 100px;
+}
+
+.class-TextEducation {
+    color:deepskyblue;
+    margin-left: 10px;
+}
+
+
+/* ------------- */
+
+.class-letter-skill-title {
+    color: dimgray;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.class-div-specifc-SkillP {
+    float: left;
+    color: rgba(0,0,0,0.4);
+    width: 35%;
+}
+
+.class-text-specifc-SkillP {
+    margin-left: 20%;
+    font-size: 20px;
+    color: slategray;
+}
+
+.skills-by-level{
+    display: block;
+    margin: 20px auto;
+}
+
+.class-div-skills {
+    width: 60%;
+    float: left;
+    height: 300px;
+}
+
+.material-icons.md-30 { 
+    font-size: 30px; 
+    margin: auto 1%;
+}
+
+
+.material-icons.md-dark.md-inactive { 
+    color: rgba(0, 0, 0, 0.26);
+}
+
+/* ------Modal---------*/
+
+.class-div-button {
+    width: 40%;
+    float: right;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background: deepskyblue;
+    margin: 20px;
+    padding: 1em 1em;
+    width: 100px;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    float: left;
+}
+
+.button:hover {
+    background: blue;
+}
+
+.modal {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.452);
+}
+
+.modal-content {
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    margin: 10% auto;
+    width: 25%;
+    height: 25%;
+    box-shadow: 0 5 8px 0 rgba(0,0,0,0.4);
+}
+
+.closeBtn {
+    color: grey;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.class-modal-text {
+    margin: 20px 20px;
+    font-size: 30px;
+}
