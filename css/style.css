@@ -151,7 +151,6 @@ h1, h2, h3, p{
 }
 
 #idWorkExperience #idSeparatorVertical {
-    width: 1px;
     height: 650px;
     margin-top: 5%;
     float: left;
@@ -310,5 +309,5 @@ h1, h2, h3, p{
 
 .class-modal-text {
     margin: 20px 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
